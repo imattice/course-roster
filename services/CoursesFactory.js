@@ -1,7 +1,7 @@
 courseRoster.factory('CoursesFactory', function CoursesFactory() {
   var factory = {};
-  factory.courses = [];
-  
+  factory.courses = [ {name: 'Intro to AngularJS', id: 1, students: []}];
+
   factory.addCourse = function() {
     factory.courses.push({
       name: factory.courseName,
