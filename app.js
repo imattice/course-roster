@@ -41,4 +41,5 @@ courseRoster.config(function($stateProvider, $urlRouterProvider) {
         },
     }
   });
+
 });

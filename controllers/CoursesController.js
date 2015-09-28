@@ -6,4 +6,5 @@ courseRoster.controller('CoursesCtrl', function CoursesCtrl($scope, CoursesFacto
   $scope.alert = function(message) {
     alert(message);
   }
+
 });

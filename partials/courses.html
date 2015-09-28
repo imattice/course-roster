@@ -2,6 +2,7 @@
   <h1>Here are all of your courses:</h1>
   <p sample-course course-name="ctrlCourseName"></p>
   <p alert-user alert="alert(message)"></p>
+
   <ul>
     <li ng-repeat="item in courses">
       <a ui-sref="courses.students({ courseId: item.id })">{{ item.name }}</a>
